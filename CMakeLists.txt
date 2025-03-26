@@ -3,4 +3,4 @@ project(patterns)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(patterns main.cpp)
+add_executable(patterns Structural/Facade.cpp)
