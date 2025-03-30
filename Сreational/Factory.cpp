@@ -14,8 +14,7 @@ class Transport {
 };
 
 // такая конструкция обозначает наследование класса Car от класса Transport
-class Car : public Transport
-{
+class Car : public Transport {
     public:
         // спецификатор "override" обозначает переопределение виртуального метода
         void move() override {
@@ -23,8 +22,7 @@ class Car : public Transport
         };
 };
 
-class Ship : public Transport
-{
+class Ship : public Transport {
     public:
         void move() override {
             std::cout << "Плывет" << std::endl;
